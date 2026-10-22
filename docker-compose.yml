@@ -1,0 +1,16 @@
+# Starter compose file — incomplete and rough on purpose.
+version: "3"
+
+services:
+  api:
+    build: .
+    ports:
+      - "8000:8000"
+    environment:
+      - DATABASE_URL=postgresql://admin:password123@db:5432/scheduling
+
+  db:
+    image: postgres
+    environment:
+      - POSTGRES_PASSWORD=password123
+      - POSTGRES_DB=scheduling

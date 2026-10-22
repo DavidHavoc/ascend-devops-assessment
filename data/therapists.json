@@ -1,0 +1,231 @@
+[
+  {
+    "id": 1,
+    "first_name": "Joseph",
+    "last_name": "Brown",
+    "name": "Dr. Joseph Brown",
+    "credentials": "LCAS",
+    "email": "joseph.brown@ascendpsy.com",
+    "specialties": [
+      "couples",
+      "assessment"
+    ],
+    "active": true
+  },
+  {
+    "id": 2,
+    "first_name": "Susan",
+    "last_name": "Lopez",
+    "name": "Dr. Susan Lopez",
+    "credentials": "PsyD",
+    "email": "susan.lopez@ascendpsy.com",
+    "specialties": [
+      "individual",
+      "assessment"
+    ],
+    "active": true
+  },
+  {
+    "id": 3,
+    "first_name": "Sandra",
+    "last_name": "Cook",
+    "name": "Dr. Sandra Cook",
+    "credentials": "PsyD",
+    "email": "sandra.cook@ascendpsy.com",
+    "specialties": [
+      "adolescent"
+    ],
+    "active": true
+  },
+  {
+    "id": 4,
+    "first_name": "Brenda",
+    "last_name": "Turner",
+    "name": "Dr. Brenda Turner",
+    "credentials": "LCMHC",
+    "email": "brenda.turner@ascendpsy.com",
+    "specialties": [
+      "adolescent",
+      "family"
+    ],
+    "active": true
+  },
+  {
+    "id": 5,
+    "first_name": "James",
+    "last_name": "Lee",
+    "name": "Dr. James Lee",
+    "credentials": "LCAS",
+    "email": "james.lee@ascendpsy.com",
+    "specialties": [
+      "family",
+      "assessment"
+    ],
+    "active": true
+  },
+  {
+    "id": 6,
+    "first_name": "Amanda",
+    "last_name": "Wilson",
+    "name": "Dr. Amanda Wilson",
+    "credentials": "LCSW",
+    "email": "amanda.wilson@ascendpsy.com",
+    "specialties": [
+      "individual",
+      "family"
+    ],
+    "active": true
+  },
+  {
+    "id": 7,
+    "first_name": "Kimberly",
+    "last_name": "Garcia",
+    "name": "Dr. Kimberly Garcia",
+    "credentials": "LCAS",
+    "email": "kimberly.garcia@ascendpsy.com",
+    "specialties": [
+      "adolescent",
+      "individual"
+    ],
+    "active": true
+  },
+  {
+    "id": 8,
+    "first_name": "Timothy",
+    "last_name": "Hernandez",
+    "name": "Dr. Timothy Hernandez",
+    "credentials": "PsyD",
+    "email": "timothy.hernandez@ascendpsy.com",
+    "specialties": [
+      "assessment",
+      "group"
+    ],
+    "active": true
+  },
+  {
+    "id": 9,
+    "first_name": "Ronald",
+    "last_name": "Harris",
+    "name": "Dr. Ronald Harris",
+    "credentials": "LCAS",
+    "email": "ronald.harris@ascendpsy.com",
+    "specialties": [
+      "individual"
+    ],
+    "active": true
+  },
+  {
+    "id": 10,
+    "first_name": "Donna",
+    "last_name": "Hernandez",
+    "name": "Dr. Donna Hernandez",
+    "credentials": "LCMHC",
+    "email": "donna.hernandez@ascendpsy.com",
+    "specialties": [
+      "child"
+    ],
+    "active": true
+  },
+  {
+    "id": 11,
+    "first_name": "Ronald",
+    "last_name": "Lee",
+    "name": "Dr. Ronald Lee",
+    "credentials": "LMFT",
+    "email": "ronald.lee@ascendpsy.com",
+    "specialties": [
+      "couples",
+      "group"
+    ],
+    "active": true
+  },
+  {
+    "id": 12,
+    "first_name": "Elizabeth",
+    "last_name": "Perez",
+    "name": "Dr. Elizabeth Perez",
+    "credentials": "PsyD",
+    "email": "elizabeth.perez@ascendpsy.com",
+    "specialties": [
+      "couples",
+      "assessment",
+      "child"
+    ],
+    "active": true
+  },
+  {
+    "id": 13,
+    "first_name": "Donald",
+    "last_name": "Adams",
+    "name": "Dr. Donald Adams",
+    "credentials": "LCSW",
+    "email": "donald.adams@ascendpsy.com",
+    "specialties": [
+      "assessment"
+    ],
+    "active": false
+  },
+  {
+    "id": 14,
+    "first_name": "Brian",
+    "last_name": "Phillips",
+    "name": "Dr. Brian Phillips",
+    "credentials": "LMFT",
+    "email": "brian.phillips@ascendpsy.com",
+    "specialties": [
+      "couples"
+    ],
+    "active": true
+  },
+  {
+    "id": 15,
+    "first_name": "Brian",
+    "last_name": "Ramirez",
+    "name": "Dr. Brian Ramirez",
+    "credentials": "LCAS",
+    "email": "brian.ramirez@ascendpsy.com",
+    "specialties": [
+      "child",
+      "group"
+    ],
+    "active": true
+  },
+  {
+    "id": 16,
+    "first_name": "Kimberly",
+    "last_name": "Moore",
+    "name": "Dr. Kimberly Moore",
+    "credentials": "LCMHC",
+    "email": "kimberly.moore@ascendpsy.com",
+    "specialties": [
+      "adolescent",
+      "assessment",
+      "family"
+    ],
+    "active": true
+  },
+  {
+    "id": 17,
+    "first_name": "Ryan",
+    "last_name": "Phillips",
+    "name": "Dr. Ryan Phillips",
+    "credentials": "LMFT",
+    "email": "ryan.phillips@ascendpsy.com",
+    "specialties": [
+      "couples"
+    ],
+    "active": true
+  },
+  {
+    "id": 18,
+    "first_name": "Barbara",
+    "last_name": "Miller",
+    "name": "Dr. Barbara Miller",
+    "credentials": "LCSW",
+    "email": "barbara.miller@ascendpsy.com",
+    "specialties": [
+      "group"
+    ],
+    "active": true
+  }
+]

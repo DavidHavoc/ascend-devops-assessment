@@ -1,0 +1,5 @@
+# Default owners for everything in the repo.
+*           @ascendpsy/engineering
+
+/app/       @ascendpsy/platform
+/.github/   @ascendpsy/platform
