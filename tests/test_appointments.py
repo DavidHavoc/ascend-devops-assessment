@@ -31,6 +31,25 @@ def test_cancelled_excluded_by_default(client):
     assert "cancelled" not in {a["status"] for a in r.json()}
 
 
+def test_list_appointments_excludes_cancelled_globally_by_default():
+    expected = [a for a in store.appointments if a["status"] != "cancelled"]
+
+    assert store.list_appointments() == expected
+
+
+def test_list_appointments_include_cancelled_returns_everything():
+    assert store.list_appointments(include_cancelled=True) == store.appointments
+
+
+def test_list_appointments_false_preserves_non_cancelled_appointments():
+    result = store.list_appointments(include_cancelled=False)
+
+    assert all(a["status"] != "cancelled" for a in result)
+    assert {a["status"] for a in result} == {
+        a["status"] for a in store.appointments if a["status"] != "cancelled"
+    }
+
+
 def test_get_single(client):
     appt_id = store.appointments[0]["id"]
     r = client.get(f"/appointments/{appt_id}")

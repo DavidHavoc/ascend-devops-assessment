@@ -13,7 +13,7 @@ router = APIRouter(prefix="/appointments", tags=["appointments"])
 def list_appointments(date: str | None = None):
     # Cancelled appointments should not appear in the default listing.
     items = store.list_appointments(date=date, include_cancelled=False)
-    logger.debug("Returning appointments: %s", items)
+    logger.debug("Returning appointments: %s", len(items))
     return items
 
 

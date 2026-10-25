@@ -25,7 +25,8 @@ class Store:
         items = self.appointments
         if date:
             items = [a for a in items if a["start_time"].startswith(date)]
-        # The include_cancelled flag is not applied here yet.
+        if not include_cancelled:
+            items = [a for a in items if a["status"] != "cancelled"]
         return items
 
     def get_appointment(self, appt_id: int):
